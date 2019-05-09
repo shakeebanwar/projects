@@ -1,0 +1,32 @@
+name=input("Enter Your Name = ")
+clas=input("Enter Your Class Name = ")
+eng=int(input("Enter Your English Marks = "))
+pst=int(input("Enter Your Pakistan studies Marks = "))
+cs=int(input("Enter Your Computer Marks = "))
+che=int(input("Enter Your Chemistry Marks = "))
+sindhi=int(input("Enter Your Sindhi Marks = "))
+total=425
+print("Total Number Is ",total)
+print(total)
+obta=eng+pst+cs+che+sindhi
+print(obta)
+per=(obta*100)/total
+print(per)
+if(per>80):
+    print(name,"Your Grade Is 'A+'")
+   
+elif (per>70 and per<=80):
+    print(name,"Your Grade Is 'A'")
+
+elif(per>60 and per<=70):
+    print(name,"Your Grade Is 'B'")
+
+elif(per>50 and per<=60):
+    print(name,"Your Grade Is 'C'")
+
+elif(per>40 and per<=50):
+    print(name,"Your Grade Is 'D'")
+
+
+else:
+    print("FAil") 
